@@ -41,7 +41,7 @@ async def connector(client, user_name):
                 print(f'{user_name} is successfully reported {i}')
         except Exception as err:
             print(err)
-        await asyncio.sleep(5)
+        await asyncio.sleep(10)
 
 
 async def main_start():
