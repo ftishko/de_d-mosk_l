@@ -57,4 +57,3 @@ client = TelegramClient('sess', api_id, api_hash,)
 
 with client:
     client.loop.run_until_complete(main_start())
-
